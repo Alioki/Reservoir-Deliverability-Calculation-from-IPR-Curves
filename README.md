@@ -10,6 +10,25 @@ Reservoir deliverability is defined as the oil or gas production rate achievable
 
 In this project, the **generalized Vogel IPR model** is applied to describe well inflow from multilayer reservoirs where reservoir pressures are above oil bubble-point pressures, while wellbore pressures remain below these bubble-point pressures. By using this approach, the project examines **IPR curves** under **Steady-state**, **Pseudo–steady-state**, and **Transient** flow conditions, considering scenarios where the reservoir either reaches bubble point pressure or remains above it by the end of the operation. Given the complexity of replicating these conditions in real-world settings, the project is primarily educational and aimed at deepening understanding of reservoir inflow behavior in various conditions. Additionally, future **IPR** values are calculated to predict potential production performance over time.
 
+
+## Required
+
+To run this code, the **NumPy** and **Matplotlib** libraries must be installed on your system. These libraries are used for numerical computations and plotting IPR curves, respectively. You can install them using the following command:
+
+*install matplotlib
+```
+pip install matplotlib
+```
+*install numpy
+```
+pip install numpy
+```
+
+
+
+
+This can be added to the documentation or description to clearly indicate the requirements.
+
 ## Methodology
 
 
