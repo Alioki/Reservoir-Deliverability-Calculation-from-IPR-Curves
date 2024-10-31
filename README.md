@@ -1,4 +1,4 @@
-# Project Title
+![Vogel’s equation transient flow](https://github.com/user-attachments/assets/0f2b9dfb-9292-428d-8c57-3fbb3c9d56bd)# Project Title
 
 Reservoir Deliverability Calculation from IPR Curves
 
@@ -97,7 +97,37 @@ The application of reservoir deliverability calculations from Inflow Performance
 
 ## Results
 
-In conclusion, the K-factors obtained from our study are as follows: for methane, the K-factor is 3.9916; for normal butane (n-C₄), it is 0.2359; and for normal decane (n-C₁₀), it is 0.0031. These values are remarkably close to those found in the literature, validating the reliability of our approach. It is important to note that the data used, including critical temperature and pressure, acentric factor, and vapor pressure, are up-to-date and essential for accurate modeling of phase behavior in reservoirs. This accuracy is critical for optimizing production processes, enabling engineers to make informed decisions regarding the management and extraction of hydrocarbons. Additionally, a code has been developed that allows for the calculation of K-factors for mixtures with a larger number of components, facilitating more complex analyses in hydrocarbon reservoir studies.
+
+In this project, we developed a code using the Vogel method that can obtain the IPR curve for conditions where the reservoir pressure is above the bubble point as well as for conditions where the reservoir pressure is below the bubble point. This code allows us to analyze the reservoir's production behavior in both scenarios, facilitating better decision-making for reservoir management. Additionally, a Future IPR code was also developed, providing accurate predictions of the reservoir's future performance and aiding in the optimization of production strategies. These tools can assist engineers in enhancing well performance and making more effective use of oil resources.
+
+**Reservoir pressure above the bubble point**
+
+![pseudosteady state flow](https://github.com/user-attachments/assets/54a56433-08ba-40d9-b16c-a08451acf88f)
+
+![steady state flow](https://github.com/user-attachments/assets/b46c3b01-89e2-40be-83f9-58c5ba79011f)
+
+![transient flow](https://github.com/user-attachments/assets/57eabca6-bb89-4dfd-a229-94b726a19d24)
+
+**Reservoir pressure under the bubble point**
+
+![Vogel’s equation pseudosteady state flow](https://github.com/user-attachments/assets/c82a0566-67a7-483f-8ef4-a511a7db3d00)
+
+![Vogel’s equation steady state flow](https://github.com/user-attachments/assets/faec2101-0e95-4c8f-8c8a-c2109fef558c)
+
+![Vogel’s equation transient flow](https://github.com/user-attachments/assets/9857630a-6766-4aef-97e0-5c42a9db3239)
+
+**Future IPR**
+
+![future IPR](https://github.com/user-attachments/assets/6f9e117f-efbb-4d8b-916d-5eae92bf99fb)
+
+
+
+
+
+
+
+
+
 
 ## Refrences
 * McCain Jr, William D. "Properties of petroleum fluids."
