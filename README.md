@@ -1,6 +1,7 @@
 # Project Title
 
-Estimate composition of equilibrium gas oil in given pressure and temperature
+Reservoir Deliverability Calculation from IPR Curves
+
 
 ## Description
 Determining the proportions of gas and liquid in hydrocarbon reservoirs is essential for optimizing field production. Understanding the phase composition of each component in gas and liquid phases enables engineers to develop better strategies for production, management, and maintenance of hydrocarbon fields. One common method for estimating this composition is by using the K-factor, derived from the Peng-Robinson equation of state and fugacity coefficient calculations. Combined with flash calculations, this approach provides the equilibrium conditions between gas and liquid phases for specific mixtures, allowing precise determination of phase composition.
