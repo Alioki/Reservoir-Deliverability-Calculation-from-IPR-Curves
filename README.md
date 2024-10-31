@@ -22,25 +22,22 @@ In scenarios where the **reservoir pressure is maintained above the bubble-point
 
 2. **Steady-State Flow**: In radial steady-state flow around a vertical well, the productivity index can be expressed as:
 
-   \[
-   J^* = \frac{q}{(p_e - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \ln \frac{r_e}{r_w} + S \right)
-   \]
+   
+   $$J^* = \frac{q}{(p_e - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \ln \frac{r_e}{r_w} + S \right)$$
 
    Here, \( p_e \) is the external boundary pressure, and \( r_e \) is the drainage radius. This steady-state model is useful for conditions where pressure gradients stabilize over time, reflecting long-term reservoir deliverability.
 
 3. **Pseudo–Steady-State Flow**: For pseudo–steady-state flow in a vertical well, the productivity index is determined by:
 
-   \[
-   J^* = \frac{q}{(\overline{p} - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \frac{1}{2} \ln \frac{4A}{C_A r_w^2} + S \right)
-   \]
+   
+   $$J^* = \frac{q}{(\overline{p} - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \frac{1}{2} \ln \frac{4A}{C_A r_w^2} + S \right)$$
 
    In this equation, \( \overline{p} \) is the average reservoir pressure, \( A \) is the drainage area, and \( C_A \) is a shape factor. This formula is specifically suited for cases where a pseudo-steady-state flow regime is assumed, often used when pressure stabilizes after an initial production period.
 
 4. **Additional Calculation for Complex Flow Paths**: For conditions involving more intricate well geometries, such as horizontal wells, the productivity index can be calculated by:
 
-   \[
-   J^* = \frac{q}{(p_e - p_{wf})} = \frac{k_y h}{141.2 B \mu} \left\{ \ln \left( \frac{a + \sqrt{a^2 - (L/2)^2}}{L/2} \right) + \frac{L}{a} \ln \left( \frac{L}{r_w} \right) \right\}
-   \]
+   
+$$J^* = \frac{q}{(p_e - p_{wf})} = \frac{k_y h}{141.2 B \mu} \left\{ \ln \left(\frac{a + \sqrt{a^2 - (L/2)^2}}{L/2} \right)\frac{L{a}\ln\left( \frac{L}{r_w} \right) \right\}$$
 
    where \( a \) and \( L \) are geometric factors specific to the horizontal section of the well. This equation adapts the productivity index for flow scenarios where a more complex well architecture influences reservoir inflow.
 
