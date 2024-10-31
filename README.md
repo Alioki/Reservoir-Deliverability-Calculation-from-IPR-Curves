@@ -48,6 +48,83 @@ In scenarios where the **reservoir pressure is maintained above the bubble-point
 
 These formulations enable a comprehensive analysis of well productivity across different flow regimes, assisting in the optimization of production methods and providing insights into reservoir management strategies under conditions where reservoir pressure remains above the bubble point.
 
+Here’s the revised text formatted for your GitHub README:
+
+---
+
+## Productivity Index Calculation Above Bubble-Point Pressure
+
+In scenarios where the **reservoir pressure is maintained above the bubble-point pressure**, the productivity index (\( J^* \)) can be calculated using various flow regimes to assess well performance. This approach is essential for evaluating well deliverability and understanding flow behavior under different operational conditions when the reservoir pressure is higher than the pressure at which gas starts to separate from oil.
+
+### 1. Transient Flow
+
+For a vertical well with radial transient flow, the productivity index is defined as:
+
+\[
+J^* = \frac{q}{(p_i - p_{wf})} = \frac{kh}{162.6 B_o \mu_o} \left( \log t + \log \frac{k}{\phi \mu_o c_t r_w^2} - 3.23 + 0.87S \right)
+\]
+
+where:
+- \( q \) = flow rate
+- \( p_i \) = initial reservoir pressure
+- \( p_{wf} \) = flowing bottom-hole pressure
+- \( k \) = permeability
+- \( h \) = thickness
+- \( B_o \) = oil formation volume factor
+- \( \mu_o \) = oil viscosity
+- \( \phi \) = porosity
+- \( c_t \) = total compressibility
+- \( r_w \) = well radius
+- \( S \) = skin factor
+
+This equation considers both formation and fluid properties to determine flow under transient conditions, capturing the impact of time on productivity.
+
+### 2. Steady-State Flow
+
+In radial steady-state flow around a vertical well, the productivity index can be expressed as:
+
+\[
+J^* = \frac{q}{(p_e - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \ln \frac{r_e}{r_w} + S \right)
+\]
+
+where:
+- \( p_e \) = external boundary pressure
+- \( r_e \) = drainage radius
+
+This steady-state model is useful for conditions where pressure gradients stabilize over time, reflecting long-term reservoir deliverability.
+
+### 3. Pseudo–Steady-State Flow
+
+For pseudo–steady-state flow in a vertical well, the productivity index is determined by:
+
+\[
+J^* = \frac{q}{(\overline{p} - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \frac{1}{2} \ln \frac{4A}{C_A r_w^2} + S \right)
+\]
+
+where:
+- \( \overline{p} \) = average reservoir pressure
+- \( A \) = drainage area
+- \( C_A \) = shape factor
+
+This formula is specifically suited for cases where a pseudo-steady-state flow regime is assumed, often used when pressure stabilizes after an initial production period.
+
+### 4. Additional Calculation for Complex Flow Paths
+
+For conditions involving more intricate well geometries, such as horizontal wells, the productivity index can be calculated by:
+
+\[
+J^* = \frac{q}{(p_e - p_{wf})} = \frac{k_y h}{141.2 B \mu} \left\{ \ln \left( \frac{a + \sqrt{a^2 - (L/2)^2}}{L/2} \right) + \frac{L}{a} \ln \left( \frac{L}{r_w} \right) \right\}
+\]
+
+where:
+- \( a \) and \( L \) are geometric factors specific to the horizontal section of the well.
+
+This equation adapts the productivity index for flow scenarios where a more complex well architecture influences reservoir inflow.
+
+---
+
+These formulations enable a comprehensive analysis of well productivity across different flow regimes, assisting in the optimization of production methods and providing insights into reservoir management strategies under conditions where reservoir pressure remains above the bubble point.
+
 ## Applications
 
 
