@@ -16,14 +16,14 @@ In scenarios where the **reservoir pressure is maintained above the bubble-point
 
 1. **Transient Flow**: For a vertical well with radial transient flow, the productivity index is defined as:
 
-   $$J^* = \frac{q}{(p_i - p_{wf})} = \frac{kh}{162.6 B_o \mu_o} \left( \log t + \log \frac{k}{\phi \mu_o c_t r_w^2} - 3.23 + 0.87S \right)$$
+   $$J^* = \frac{q}{(\overline{p} - p_{wf})} = \frac{kh}{162.6 B_o \mu_o} \left( \log t + \log \frac{k}{\phi \mu_o c_t r_w^2} - 3.23 + 0.87S \right)$$
 
    where \( q \) represents the flow rate, \( p_i \) is the initial reservoir pressure, \( p_{wf} \) is the flowing bottom-hole pressure, \( k \) is the permeability, \( h \) is the thickness, \( B_o \) is the oil formation volume factor, \( \mu_o \) is the oil viscosity, \( \phi \) is the porosity, \( c_t \) is the total compressibility, \( r_w \) is the well radius, and \( S \) is the skin factor. This equation considers both formation and fluid properties to determine flow under transient conditions, capturing the impact of time on productivity.
 
 2. **Steady-State Flow**: In radial steady-state flow around a vertical well, the productivity index can be expressed as:
 
    
-   $$J^* = \frac{q}{(p_e - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \ln \frac{r_e}{r_w} + S \right)$$
+   $$J^* = \frac{q}{(\overline{p} - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \ln \frac{r_e}{r_w} + S \right)$$
 
    Here, \( p_e \) is the external boundary pressure, and \( r_e \) is the drainage radius. This steady-state model is useful for conditions where pressure gradients stabilize over time, reflecting long-term reservoir deliverability.
 
