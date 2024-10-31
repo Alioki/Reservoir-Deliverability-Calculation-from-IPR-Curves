@@ -12,31 +12,42 @@ In this project, the **generalized Vogel IPR model** is applied to describe well
 
 ## Methodology
 
-This code utilizes several equations to achieve accurate phase behavior predictions for hydrocarbon mixtures. The primary equation used is the **Peng-Robinson equation of state**, which is employed to predict the phase behavior of hydrocarbons under various temperature and pressure conditions. The Peng-Robinson equation is given as follows:
+In scenarios where the **reservoir pressure is maintained above the bubble-point pressure**, the productivity index $(\( J^* \))$ can be calculated using various flow regimes to assess well performance. This approach is essential for evaluating well deliverability and understanding flow behavior under different operational conditions when the reservoir pressure is higher than the pressure at which gas starts to separate from oil.
 
-$\[
-P = \frac{RT}{V - b} - \frac{a \alpha}{V(V + b) + b(V - b)}
-\]$
+1. **Transient Flow**: For a vertical well with radial transient flow, the productivity index is defined as:
 
-where $\( P \)$ is the pressure, $\( T \)$ is the temperature, $\( V \)$ is the molar volume, $\( R \)$ is the universal gas constant, $\( a \)$ and $\( b \)$ are parameters related to the components of the mixture, and $\( \alpha \)$ is a temperature-dependent function calculated based on the reduced temperature and the acentric factor of the components.
+  $ \[
+   J^* = \frac{q}{(p_i - p_{wf})} = \frac{kh}{162.6 B_o \mu_o} \left( \log t + \log \frac{k}{\phi \mu_o c_t r_w^2} - 3.23 + 0.87S \right)
+   \]$
 
-Additionally, the **fugacity coefficient** is used to quantify the escape tendency of each component in both gas and liquid phases, ensuring that phase equilibrium between these phases is maintained. The fugacity coefficient for each component in the liquid and gas phases is calculated as follows:
+   where \( q \) represents the flow rate, \( p_i \) is the initial reservoir pressure, \( p_{wf} \) is the flowing bottom-hole pressure, \( k \) is the permeability, \( h \) is the thickness, \( B_o \) is the oil formation volume factor, \( \mu_o \) is the oil viscosity, \( \phi \) is the porosity, \( c_t \) is the total compressibility, \( r_w \) is the well radius, and \( S \) is the skin factor. This equation considers both formation and fluid properties to determine flow under transient conditions, capturing the impact of time on productivity.
 
-$\phi =\exp \left(Z-1-\ln \left(Z-B\right)-\frac{A}{2\sqrt{2}B}\ln \left(\frac{Z+\left(1+\sqrt{2}\right)B}{Z+\left(1-\sqrt{2}\right)B}\right)\right)$
+2. **Steady-State Flow**: In radial steady-state flow around a vertical well, the productivity index can be expressed as:
 
-where $\( \phi \)$ represents the fugacity coefficient, \( Z \) is the compressibility factor, and \( A \) and \( B \) are constants related to the equation of state and the composition of the mixture.
+   \[
+   J^* = \frac{q}{(p_e - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \ln \frac{r_e}{r_w} + S \right)
+   \]
 
-The code also implements **flash calculations**, which are used to determine the phase distribution of each component (gas and liquid). These calculations involve determining the distribution ratio, or \( K \)-factor, for each component, which is given by:
+   Here, \( p_e \) is the external boundary pressure, and \( r_e \) is the drainage radius. This steady-state model is useful for conditions where pressure gradients stabilize over time, reflecting long-term reservoir deliverability.
 
-$\[
-K = \frac{y}{x}
-\]$
+3. **Pseudo–Steady-State Flow**: For pseudo–steady-state flow in a vertical well, the productivity index is determined by:
 
-where $\( y \)$ is the mole fraction of the component in the gas phase, and $\( x \)$ is the mole fraction of the component in the liquid phase.
+   \[
+   J^* = \frac{q}{(\overline{p} - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \frac{1}{2} \ln \frac{4A}{C_A r_w^2} + S \right)
+   \]
 
-By using these equations and incorporating input parameters like critical temperature, critical pressure, and acentric factor for each component, the code enables more detailed analysis and prediction of phase behavior in complex mixtures. This method can be extended to handle multi-component systems, supporting a wide range of hydrocarbon reservoir modeling applications.
+   In this equation, \( \overline{p} \) is the average reservoir pressure, \( A \) is the drainage area, and \( C_A \) is a shape factor. This formula is specifically suited for cases where a pseudo-steady-state flow regime is assumed, often used when pressure stabilizes after an initial production period.
 
-It is important to note that these relationships are presented in a general overview. To gain a deeper understanding of the relationships, it is essential to consult the referenced sources.
+4. **Additional Calculation for Complex Flow Paths**: For conditions involving more intricate well geometries, such as horizontal wells, the productivity index can be calculated by:
+
+   \[
+   J^* = \frac{q}{(p_e - p_{wf})} = \frac{k_y h}{141.2 B \mu} \left\{ \ln \left( \frac{a + \sqrt{a^2 - (L/2)^2}}{L/2} \right) + \frac{L}{a} \ln \left( \frac{L}{r_w} \right) \right\}
+   \]
+
+   where \( a \) and \( L \) are geometric factors specific to the horizontal section of the well. This equation adapts the productivity index for flow scenarios where a more complex well architecture influences reservoir inflow.
+
+These formulations enable a comprehensive analysis of well productivity across different flow regimes, assisting in the optimization of production methods and providing insights into reservoir management strategies under conditions where reservoir pressure remains above the bubble point.
+
 ## Applications
 
 
