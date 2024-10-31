@@ -90,8 +90,9 @@ The future Inflow Performance Relationship (IPR) is an essential tool for predic
 ## Applications
 
 
-The application of reservoir deliverability calculations from Inflow Performance Relationship (IPR) curves is vital for effective reservoir management and optimization of production strategies. IPR curves provide a graphical representation of the relationship between flow rates and bottom-hole pressures, enabling operators to assess the current performance of a well and predict future deliverability under varying reservoir conditions. By analyzing historical production data and employing methods like Vogel’s and Fetkovich’s, engineers can generate future IPR curves that forecast the expected performance of the reservoir as it depletes over time. These predictions inform decision-making processes regarding well interventions, enhanced oil recovery techniques, and overall reservoir management, ultimately leading to improved economic outcomes and sustained production efficiency.
 
+
+The application of reservoir deliverability calculations from Inflow Performance Relationship (IPR) curves is vital for effective reservoir management and optimization of production strategies. IPR curves provide a graphical representation of the relationship between flow rates and bottom-hole pressures, enabling operators to assess the current performance of a well and predict future deliverability under varying reservoir conditions. By analyzing historical production data and employing methods like Vogel’s and Fetkovich’s, engineers can generate future IPR curves that forecast the expected performance of the reservoir as it depletes over time. Importantly, this code can be utilized to calculate deliverability for different pressure conditions and a range of reservoir properties, such as viscosity, permeability, and fluid composition. These predictions inform decision-making processes regarding well interventions, enhanced oil recovery techniques, and overall reservoir management, ultimately leading to improved economic outcomes and sustained production efficiency.
 
 
 ## Results
