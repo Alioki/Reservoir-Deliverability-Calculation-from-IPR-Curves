@@ -12,6 +12,8 @@ In this project, the **generalized Vogel IPR model** is applied to describe well
 
 ## Methodology
 
+
+**single-phase**
 In scenarios where the **reservoir pressure is maintained above the bubble-point pressure**, the productivity index $( J^* )$ can be calculated using various flow regimes to assess well performance. This approach is essential for evaluating well deliverability and understanding flow behavior under different operational conditions when the reservoir pressure is higher than the pressure at which gas starts to separate from oil.
 
 1. **Transient Flow**: For a vertical well with radial transient flow, the productivity index is defined as:
@@ -40,7 +42,7 @@ In scenarios where the **reservoir pressure is maintained above the bubble-point
 ![image](https://github.com/user-attachments/assets/c1bdc5d7-8d3f-4e8f-9156-1f499f0f8a0c)
 
 
-   where \( a \) and \( L \) are geometric factors specific to the horizontal section of the well. This equation adapts the productivity index for flow scenarios where a more complex well architecture influences reservoir inflow.
+   where $\( a \)$ and $\( L \)$ are geometric factors specific to the horizontal section of the well. This equation adapts the productivity index for flow scenarios where a more complex well architecture influences reservoir inflow.
 ![image](https://github.com/user-attachments/assets/5a4e390d-0f20-4ed2-b519-b70db0c41de6)
 
 ![image](https://github.com/user-attachments/assets/95a8117b-9b96-476b-b8fb-77ffde4b0ab5)
@@ -49,6 +51,30 @@ In scenarios where the **reservoir pressure is maintained above the bubble-point
 
 These formulations enable a comprehensive analysis of well productivity across different flow regimes, assisting in the optimization of production methods and providing insights into reservoir management strategies under conditions where reservoir pressure remains above the bubble point.
 
+**two-phase**
+
+ *Vogel’s Equation
+ 
+When the pressure is below the bubble point pressure, the behavior of the reservoir changes, and it becomes essential to consider the impacts of gas separation.
+
+Vogel’s equation is still widely used in the industry. It is written as:
+
+![image](https://github.com/user-attachments/assets/20cd449a-8ccb-4221-8894-d6d0cc453696)
+
+![image](https://github.com/user-attachments/assets/b19cd486-8d04-4773-a004-7cc72f061609)
+
+
+
+where $\( q_{\text{max}} \)$ is an empirical constant, and its value represents the maximum possible value of reservoir deliverability, or AOF (Absolute Open Flow). The $\( q_{\text{max}} \)$ can be theoretically estimated based on reservoir pressure and productivity index above the bubble-point pressure. 
+
+###  Conditions
+
+When the pressure is below the bubble point pressure, the behavior of the reservoir changes, and it becomes essential to consider the impacts of gas separation. The formula for \( q_{\text{max}} \) under such conditions can be expressed as follows:
+
+![image](https://github.com/user-attachments/assets/aaca1b1c-550e-49a3-98c6-89678226097d)
+
+
+The pseudo–steady-state flow follows the \( q_{\text{max}} \) formula as shown in the image above.
 
 
 
