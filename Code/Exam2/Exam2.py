@@ -7,7 +7,7 @@ t=t*30*24
 k=8.2
 h=53
 Pe=5651
-Pb=5651
+P_end=0
 Bo=1.1
 mu=1.7
 Ct= 0.0000129
@@ -24,7 +24,7 @@ n=20
 
 # part 1
 q1=np.zeros(n)
-Pwf1=np.linspace(Pe,Pb,n)
+Pwf1=np.linspace(Pe,P_end,n)
 J1=k*h/(162.6*mu*Bo*(np.log10(t)+np.log10(k/(phi*mu*Ct*(rw**2)))-3.23))
 qMax1=J1*Pe/1.8
 for i in range(n):
@@ -41,7 +41,7 @@ plt.show()
 
 # part2
 q2=np.zeros(n)
-Pwf2=np.linspace(Pe,Pb,n)
+Pwf2=np.linspace(Pe,P_end,n)
 J2=k*h/(141.2*Bo*mu*(np.log(re/rw)+s))
 qMax2=J2*Pe/1.8
 
@@ -57,7 +57,7 @@ plt.savefig('Vogel’s equation steady state flow.png')
 plt.show()
 # part3
 q3=np.zeros(n)
-Pwf3=np.linspace(Pe,Pb,n)
+Pwf3=np.linspace(Pe,P_end,n)
 J3=k*h/(141.2*Bo*mu*(np.log(re/rw)+s-0.75))
 qMax3=J3*Pe/1.8
 
