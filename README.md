@@ -56,8 +56,6 @@ These formulations enable a comprehensive analysis of well productivity across d
 
  *Vogel’s Equation
  
-When the pressure is below the bubble point pressure, the behavior of the reservoir changes, and it becomes essential to consider the impacts of gas separation.
-
 Vogel’s equation is still widely used in the industry. It is written as:
 
 ![image](https://github.com/user-attachments/assets/20cd449a-8ccb-4221-8894-d6d0cc453696)
@@ -79,6 +77,11 @@ The pseudo–steady-state flow follows the $\( q_{\text{max}} \)$ formula as sho
 
 
 **Future IPR**
+
+
+
+The future Inflow Performance Relationship (IPR) is an essential tool for predicting how a well's production capacity will evolve over time as reservoir pressure decreases. By utilizing empirical methods such as Vogel’s and Fetkovich’s, engineers can estimate future flow rates based on current reservoir conditions and historical performance data. These predictions consider factors like changes in reservoir pressure, fluid properties, and phase behavior, allowing for better management and optimization of production strategies. Accurately forecasting future IPR enables operators to anticipate potential declines in deliverability and make informed decisions regarding well interventions, enhanced oil recovery techniques, and overall reservoir management.
+
 
 
 ## Applications
