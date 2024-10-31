@@ -1,4 +1,4 @@
-![Vogel’s equation transient flow](https://github.com/user-attachments/assets/0f2b9dfb-9292-428d-8c57-3fbb3c9d56bd)# Project Title
+# Project Title
 
 Reservoir Deliverability Calculation from IPR Curves
 
