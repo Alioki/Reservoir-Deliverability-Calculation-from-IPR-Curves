@@ -130,8 +130,9 @@ In this project, we developed a code using the Vogel method that can obtain the 
 
 
 ## Refrences
-* McCain Jr, William D. "Properties of petroleum fluids."
-* Smith, Joseph Mauk. "Introduction to chemical engineering thermodynamics."
+* Ahmed, Tarek. Reservoir engineering handbook. Gulf professional publishing
+* Terry, Ronald E., J. Brandon Rogers, and Benjamin Cole Craft. Applied petroleum reservoir engineering.
+* Guo, Boyun. Petroleum production engineering, a computer-assisted approach
 
 
 
