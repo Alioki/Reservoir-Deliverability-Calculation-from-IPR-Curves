@@ -30,9 +30,9 @@ In scenarios where the **reservoir pressure is maintained above the bubble-point
 3. **Pseudo–Steady-State Flow**: For pseudo–steady-state flow in a vertical well, the productivity index is determined by:
 
    
-   $$J^* = \frac{q}{(\overline{p} - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \frac{1}{2} \ln \frac{4A}{C_A r_w^2} + S \right)$$
+   $$J^* = \frac{q}{(\overline{p} - p_{wf})} = \frac{kh}{141.2 B_o \mu_o} \left( \frac{1}{2} \ln \frac{4A}{\gamma C_A r_w^2} + S \right)$$
 
-   In this equation, \( \overline{p} \) is the average reservoir pressure, \( A \) is the drainage area, and \( C_A \) is a shape factor. This formula is specifically suited for cases where a pseudo-steady-state flow regime is assumed, often used when pressure stabilizes after an initial production period.
+   In this equation, $ \overline{p} $ is the average reservoir pressure, $ A $ is the drainage area, and $ C_A $ is a shape factor. This formula is specifically suited for cases where a pseudo-steady-state flow regime is assumed, often used when pressure stabilizes after an initial production period.
 
 4. **Additional Calculation for Complex Flow Paths**: For conditions involving more intricate well geometries, such as horizontal wells, the productivity index can be calculated by:
 
