@@ -15,11 +15,11 @@ In this project, the **generalized Vogel IPR model** is applied to describe well
 
 To run this code, the **NumPy** and **Matplotlib** libraries must be installed on your system. These libraries are used for numerical computations and plotting IPR curves, respectively. You can install them using the following command:
 
-*install matplotlib
+*install matplotlib*
 ```
 pip install matplotlib
 ```
-*install numpy
+*install numpy*
 ```
 pip install numpy
 ```
