@@ -4,9 +4,10 @@ Reservoir Deliverability Calculation from IPR Curves
 
 
 ## Description
-Determining the proportions of gas and liquid in hydrocarbon reservoirs is essential for optimizing field production. Understanding the phase composition of each component in gas and liquid phases enables engineers to develop better strategies for production, management, and maintenance of hydrocarbon fields. One common method for estimating this composition is by using the K-factor, derived from the Peng-Robinson equation of state and fugacity coefficient calculations. Combined with flash calculations, this approach provides the equilibrium conditions between gas and liquid phases for specific mixtures, allowing precise determination of phase composition.
 
-In this study, we examined a mixture containing three components—methane (CH₄), normal butane (n-C₄), and normal decane (n-C₁₀)—with molar fractions of 0.5301 for methane, 0.1055 for n-C₄, and 0.3644 for n-C₁₀. At a pressure of 1000 psi and temperature of 210°F, we employed flash calculations to determine the phase composition of each component in both the gas and liquid phases. Additionally, we accounted for binary interaction coefficients, setting values of 0.02 for methane-n-butane, 0.04 for methane-n-decane, and 0 for n-butane-n-decane. These coefficients are critical for accurately representing the non-ideal interactions between components in the Peng-Robinson model.
+Reservoir deliverability is defined as the oil or gas production rate achievable from a reservoir at a given bottom-hole pressure. It is a major factor affecting well deliverability and determines the types of completion and artificial lift methods to be used. A thorough knowledge of reservoir productivity is essential for production engineers, as it helps in optimizing extraction strategies and ensuring the efficiency of production operations.
+
+In this project, the focus is on examining and displaying **IPR curves** under various flow conditions, including **Steady-state**, **Pseudo–steady-state**, and **Transient** states. The study considers cases where the reservoir either reaches bubble point pressure or does not reach it by the end of the operation period. Since achieving these precise conditions in real-world scenarios is challenging, this project is primarily educational, aiming to deepen understanding of reservoir behavior in these conditions. The **Vogel equation** is used in this project to model the flow.
 
 ## Methodology
 
