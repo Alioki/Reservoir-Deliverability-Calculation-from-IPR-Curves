@@ -41,7 +41,8 @@ In scenarios where the **reservoir pressure is maintained above the bubble-point
 
 
    where \( a \) and \( L \) are geometric factors specific to the horizontal section of the well. This equation adapts the productivity index for flow scenarios where a more complex well architecture influences reservoir inflow.
-![image](https://github.com/user-attachments/assets/77c28d53-e865-4b3e-b3b0-2dfb8b4c96a7)
+![image](https://github.com/user-attachments/assets/5a4e390d-0f20-4ed2-b519-b70db0c41de6)
+
 ![image](https://github.com/user-attachments/assets/4e9e38f6-10ee-4be3-98d0-ed7fcf52f029)
 
 
