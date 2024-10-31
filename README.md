@@ -14,6 +14,7 @@ In this project, the **generalized Vogel IPR model** is applied to describe well
 
 
 **single-phase**
+
 In scenarios where the **reservoir pressure is maintained above the bubble-point pressure**, the productivity index $( J^* )$ can be calculated using various flow regimes to assess well performance. This approach is essential for evaluating well deliverability and understanding flow behavior under different operational conditions when the reservoir pressure is higher than the pressure at which gas starts to separate from oil.
 
 1. **Transient Flow**: For a vertical well with radial transient flow, the productivity index is defined as:
@@ -69,13 +70,15 @@ where $\( q_{\text{max}} \)$ is an empirical constant, and its value represents 
 
 ###  Conditions
 
-When the pressure is below the bubble point pressure, the behavior of the reservoir changes, and it becomes essential to consider the impacts of gas separation. The formula for \( q_{\text{max}} \) under such conditions can be expressed as follows:
+When the pressure is below the bubble point pressure, the behavior of the reservoir changes, and it becomes essential to consider the impacts of gas separation. The formula for $\( q_{\text{max}} \)$ under such conditions can be expressed as follows:
 
 ![image](https://github.com/user-attachments/assets/aaca1b1c-550e-49a3-98c6-89678226097d)
 
 
-The pseudo–steady-state flow follows the \( q_{\text{max}} \) formula as shown in the image above.
+The pseudo–steady-state flow follows the $\( q_{\text{max}} \)$ formula as shown in the image above.
 
+
+**Future IPR**
 
 
 ## Applications
