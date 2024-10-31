@@ -37,7 +37,8 @@ In scenarios where the **reservoir pressure is maintained above the bubble-point
 4. **Additional Calculation for Complex Flow Paths**: For conditions involving more intricate well geometries, such as horizontal wells, the productivity index can be calculated by:
 
    
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/c1bdc5d7-8d3f-4e8f-9156-1f499f0f8a0c)
+
 
    where \( a \) and \( L \) are geometric factors specific to the horizontal section of the well. This equation adapts the productivity index for flow scenarios where a more complex well architecture influences reservoir inflow.
 
